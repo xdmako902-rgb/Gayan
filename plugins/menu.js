@@ -12,7 +12,7 @@ cmd({
     alias: ["panel", "list", "commands"],
     desc: "Show main menu.",
     category: "main",
-    react: "⚡",
+    react: "🍭",
     filename: __filename
 },
 async (conn, mek, m, { from, pushname, prefix, reply }) => {
@@ -38,28 +38,28 @@ async (conn, mek, m, { from, pushname, prefix, reply }) => {
         else if (time >= 12 && time < 17) greeting = "Good Afternoon";
         else if (time >= 17 && time < 20) greeting = "Good Evening";
 
-        const menuText = `╭─── « ɢᴀʏᴀɴ ᴍᴅ » ───⟡
+        const menuText = `╭─── « 𝚀𝚄𝙴𝙴𝙽 𝙽𝙴𝚂𝙷𝚄  » ───⟡
 │
 │ ⊳ *𝗛𝗶 ${pushname}, ${greeting}!*
 │
-│ ◈ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 : 1.0.0
-│ ◈ 𝗢𝘄𝗻𝗲𝗿  : Gayan
-│ ◈ 𝗥𝗮𝗺    : ${ramUsage}
-│ ◈ 𝗨𝗽𝘁𝗶𝗺𝗲 : ${rtime}
-│ ◈ 𝗛𝗼𝘀𝘁   : ${hostname}
+│ ◈ 𝑽𝒆𝒓𝒔𝒊𝒐𝒏 : 1.0.0
+│ ◈ 𝑶𝒘𝒏𝒆𝒓  : ᴍᴀᴋᴏ xᴅ ヤ
+│ ◈ 𝑹𝒂𝒎    : ${ramUsage}
+│ ◈ 𝑼𝒑𝒕𝒊𝒎𝒆 : ${rtime}
+│ ◈ 𝑯𝒐𝒔𝒕   : ${hostname}
 │
 ╰───────────────⟡
 
-╭─── « 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗣𝗔𝗡𝗘𝗟 » ───⟡
+╭─── « 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 𝙿𝙰𝙽𝙴𝙻 » ───⟡
 │
-│ [ 𝟭 ] 𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨
-│ [ 𝟮 ] 𝗢𝗪𝗡𝗘𝗥 𝗠𝗘𝗡𝗨
-│ [ 𝟯 ] 𝗚𝗥𝗢𝗨𝗣 𝗠𝗘𝗡𝗨
-│ [ 𝟰 ] 𝗟𝗢𝗚𝗢 𝗠𝗘𝗡𝗨
-│ [ 𝟱 ] 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗦
-│ [ 𝟲 ] 𝗦𝗘𝗔𝗥𝗖𝗛 𝗠𝗘𝗡𝗨
-│ [ 𝟳 ] 𝗔𝗜 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦
-│ [ 𝟴 ] 𝗢𝗧𝗛𝗘𝗥 𝗧𝗢𝗢𝗟𝗦
+│ [ 𝟭 ] Mᴀɪɴ Mᴇɴᴜ
+│ [ 𝟮 ] Oᴡɴᴇʀ Mᴇɴᴜ
+│ [ 𝟯 ] Gʀᴏᴜᴘ Mᴇɴᴜ
+│ [ 𝟰 ] Lᴏɢᴏ Mᴇɴᴜ
+│ [ 𝟱 ] Dᴏᴡɴʟᴏᴀᴅs
+│ [ 𝟲 ] Sᴇᴀʀᴄʜ Mᴇɴᴜ
+│ [ 𝟳 ] Aɪ Fᴇᴀᴛᴜʀᴇs
+│ [ 𝟴 ] Oᴛʜᴇʀ Tᴏᴏʟs
 │
 ╰───────────────⟡
 
@@ -103,7 +103,7 @@ const generateSubMenu = async (conn, mek, from, category, title, pushname, reply
 
         if (cmdList === '') cmdList = `│ ⊳ No commands found.\n│\n`;
 
-        let menuContent = `╭─── « 𝐆ᴀʏᴀɴ 𝐦ᴅ» ───⟡
+        let menuContent = `╭─── « ᴍᴀᴋᴏ xD» ───⟡
 │
 │ ⊳ *${title}*
 │
